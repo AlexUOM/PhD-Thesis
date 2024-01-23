@@ -30,18 +30,17 @@ Here are some key highlights of the research included in this repository:
 
 - **Cellular Composition of the Heart**
   - Deconvoluting the bulk RNA-Seq dataset into single cells revealed that the most abundant cell population is cardiomyocytes, followed by fibroblasts, endothelial cells, immune cells and smooth muscle cells.
-  
 <img src="results/tsne_heart.png" alt="tsne" width="500"/>
 <img src="results/spatial_longaxis.png" alt="spatial"/>
 
 - **Accurate Biological Recapitulation of Cardiac Cells**
   - Validation results of the deep learning model showed biologically accurate generation of cardiac cells, with a high genetically correlated similarity to real ones.
-
-<img src="results/correlation.png" alt="correlation" width="500"/>
+<img src="results/correlationV2.png" alt="correlation" width="500"/>
 
 - **The Paracrine Effect of PMCA1**
   - PMCA1 may affect activation of myofibroblasts and immune cells in a paracrine fashion.
-    
+<img src="results/paracrine_effect.png" alt="paracrine"/>
+
 ## Repository Structure
 
 The repository is organized as follows:
