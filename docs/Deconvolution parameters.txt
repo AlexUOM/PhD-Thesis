@@ -1,0 +1,34 @@
+PARAMENTERS FOR CONTROL GROUP:
+generate_sc_meta, generate_sc_data = model.train_vae_and_generate(
+    input_bulk_path='Flox_bulk.csv', # 'Clean_CKO_bulk.csv' for knockout
+    input_sc_data_path='AC_sc_data.csv',
+    input_sc_meta_path='AC_sc_meta.csv',
+    input_st_data_path='AC_st_data.csv',
+    input_st_meta_path='AC_st_meta.csv',
+    ratio_num=1,
+    top_marker_num=500,
+    gpu=0,
+    batch_size=512,
+    learning_rate=1e-4,
+    hidden_size=256,
+    epoch_num=3500,
+    vae_save_dir='Flox/save model', # 'CKO/save model' for knockout
+    vae_save_name='Flox_vae', # 'CKO_vae' for knockout
+    generate_save_dir='Flox/output', # 'CKO/output' for knockout
+    generate_save_name='Flox' # 'CKO' for knockout
+)
+
+df_meta, df_data = model.train_df_and_spatial_deconvolution(
+        generate_sc_meta,
+        generate_sc_data,
+        input_st_data_path='AC_st_data.csv',
+        input_st_meta_path='AC_st_meta.csv',
+        spot_num=200,
+        cell_num=5,
+        df_save_dir='Flox/save_model/', # 'CKO/save_model/' for knockout
+        df_save_name='Flox_df', # 'CKO_df' for knockout
+        map_save_dir='Flox/result', # 'CKO/result' for knockout
+        map_save_name='AC_Flox_map', # 'AC_CKO_map' for knockout
+        top_marker_num=500,
+        marker_used=True,
+        k=5) #k=5 for LongAxis and k=10 for ShortAxis
