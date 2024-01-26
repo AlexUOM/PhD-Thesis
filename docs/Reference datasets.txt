@@ -1,0 +1,6 @@
+Single cell reference dataset: 
+The Tabula Muris Consortium., Overall coordination., Logistical coordination. et al. Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris. Nature 562, 367–372 (2018). https://doi.org/10.1038/s41586-018-0590-4
+
+Spatial transcriptomics datasets:
+Long Axis: Mantri, M., Hinchman, M.M., McKellar, D.W. et al. Spatiotemporal transcriptomics reveals pathogenesis of viral myocarditis. Nat Cardiovasc Res 1, 946–960 (2022). https://doi.org/10.1038/s44161-022-00138-1
+Short Axis: Yamada, S., Ko, T., Hatsuse, S. et al. Spatiotemporal transcriptome analysis reveals critical roles for mechano-sensing genes at the border zone in remodeling after myocardial infarction. Nat Cardiovasc Res 1, 1072–1083 (2022). https://doi.org/10.1038/s44161-022-00140-7
