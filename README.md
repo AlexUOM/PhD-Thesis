@@ -4,7 +4,7 @@
 
 This repository contains all the analyses, scripts, and relevant materials from my PhD research in Cardiovascular Science at the University of Manchester. The goal is to provide transparency, share findings, and contribute to the broader scientific community.
 
-The work encompasses a range of analyses, experiments, and scripts in both R and Python using their relevant data science and bioinformatics packages:
+The work encompasses a range of analyses, experiments, and scripts in both R and Python using relevant data science and bioinformatics packages:
 
 - Python: pandas, numpy, matplotlib, seaborn, scipy and sklearn for Machine Learning.
 - R: Seurat, tidyverse, DESeq2, EnhancedVolcano and PCAtools. 
